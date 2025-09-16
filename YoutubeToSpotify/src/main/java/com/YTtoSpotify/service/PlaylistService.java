@@ -16,7 +16,7 @@ import com.YTtoSpotify.repository.PlaylistRepository;
 
 @Service
 public class PlaylistService {
-	private static final String API_KEY = "AIzaSyB1W060b8KcxYYLKa5l61wt3wgbdw1sU2A";
+	private static final String API_KEY = "YOUTUBE_API_KEY";
 	
 	private static final String YOUTUBE_URL = "https://www.googleapis.com/youtube/v3/playlistItems";
 
@@ -79,3 +79,4 @@ public class PlaylistService {
 	}
 	
 }
+
