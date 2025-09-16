@@ -33,8 +33,7 @@ Build Tool: Maven
 
 Clone the repository
 
-git clone https://github.com/your-username/youtube-to-spotify.git
-cd youtube-to-spotify
+git clone https://[github.com/your-username/youtube-to-spotify.git](https://github.com/Pravinkumar295/YoutubeToSpotify)
 
 
 Build the project
