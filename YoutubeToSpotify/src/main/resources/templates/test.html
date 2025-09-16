@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymleaf.com">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="colorCombinations.css">
+<title>Document</title>
+</head>
+<body>
+	<h2>Create a Spotify Playlist</h2>
+	<form th:action="@{/spotify/convert}" method="post">
+    <input type="text" name="playlistURL" placeholder="Enter Playlist URL"/>
+    <input type="text" name="playlistName" placeholder="Enter Playlist Name"/>
+    <button type="submit">Convert Playlist</button>
+</form>
+
+
+</body>
+</html>
+
+<!-- <form action="/spotify/playlists/create" method="post">
+	<input type="hidden" name="_csrf" value="${_csrf.token}" /> <input
+		type="text" name="playlistName" placeholder="Enter playlist name" />
+	<button type="submit">Create Playlist</button>
+</form>
+<form action="/spotify/playlists/create" method="POST">
+	<input type="text" name="playlistName"
+		placeholder="Enter Playlist Name" required />
+	<button type="submit">Create Playlist</button>
+</form> -->
